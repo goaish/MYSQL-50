@@ -1,0 +1,6 @@
+//code By Aishwarya
+SELECT b.id as  id
+FROM Weather a
+JOIN Weather b
+ON datediff(b.recordDate,a.recordDate)=1
+ and a.temperature < b.temperature;
