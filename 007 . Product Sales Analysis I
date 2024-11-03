@@ -1,0 +1,5 @@
+//Code By Aishwarya
+SELECT product_name ,year ,price 
+FROM Sales AS a
+INNER  JOIN Product AS b 
+ON a.product_id=b.product_id;
